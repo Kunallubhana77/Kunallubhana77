@@ -1,4 +1,4 @@
-# Hi there, I'm Kunal! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
+# Hi there, I'm Kunal Lubhana ! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
 ![Header](header.gif)
 
@@ -12,7 +12,7 @@
 
 ### 👨‍💻 About Me
 
-<img align="right" src="name.gif" alt="About Me" width="300" />
+<img align="right" src="coding.gif" alt="About Me" width="300" />
 
 - 🔭 I’m currently working on **Advanced Web Applications**
 - 🌱 I’m currently learning **AI Agents & Machine Learning**
