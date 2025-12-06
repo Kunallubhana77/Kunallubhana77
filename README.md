@@ -1,6 +1,6 @@
 # Hi there, I'm Kunal! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
-![Header](header.gif)
+![Header](happy.gif)
 
 <div align="center">
   <a href="https://git.io/typing-svg">
@@ -12,13 +12,13 @@
 
 ### 👨‍💻 About Me
 
-<img align="right" src="name.gif" alt="About Me" width="300" />
+<img align="right" src="coding.gif" alt="About Me" width="300" />
 
-- 🔭 I’m currently working on **Advanced Web Applications**
+- 🔭 I’m currently working on **Advanced Android and Mac Applications**
 - 🌱 I’m currently learning **AI Agents & Machine Learning**
 - 👯 I’m looking to collaborate on **Open Source Projects**
-- 💬 Ask me about **React, Node.js, Python, and System Design**
-- 📫 How to reach me: **kunallubhana77@gmail.com**
+- 💬 Ask me about **React, Node.js, Python, Flutter, Swift**
+- 📫 How to reach me: **techqubit77@gmail.com**
 - ⚡ Fun fact: **I can center a div in my sleep!**
 
 <br clear="right"/>
