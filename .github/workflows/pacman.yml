@@ -6,13 +6,12 @@ on:
   workflow_dispatch:
   push:
     branches:
-    - master
     - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions: 
+    permissions:
       contents: write
     steps:
       - name: Checkout
@@ -23,16 +22,15 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
 
-      - name: Create Dist Directory
+      - name: Move to folder
         run: |
-          mkdir -p dist
-          mv pacman-contribution-graph.svg dist/ || echo "File not found, checking listing"
-          ls -R
+          mkdir -p pacman-contrib
+          mv pacman-contribution-graph.svg pacman-contrib/
 
-      - name: Push to Output Branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add pacman-contrib/
+          git commit -m "Update Pacman contribution graph" || exit 0
+          git push
