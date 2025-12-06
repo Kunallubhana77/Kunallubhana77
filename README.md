@@ -1,4 +1,4 @@
-# Hi there, I'm Kunal Lubhana ! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
+# Hi there, I'm Kunal! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
 ![Header](header.gif)
 
@@ -12,7 +12,7 @@
 
 ### 👨‍💻 About Me
 
-<img align="right" src="coding.gif" alt="About Me" width="300" />
+<img align="right" src="name.gif" alt="About Me" width="300" />
 
 - 🔭 I’m currently working on **Advanced Web Applications**
 - 🌱 I’m currently learning **AI Agents & Machine Learning**
@@ -59,14 +59,10 @@
 
 ---
 
-### 🐍 Contribution Snake
+### 3D Contribution Graph
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kunallubhana77/Kunallubhana77/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kunallubhana77/Kunallubhana77/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Kunallubhana77/Kunallubhana77/output/github-contribution-grid-snake.svg">
-  </picture>
+  <img src="profile-3d-contrib/profile-night-green.svg" alt="3D Contribution Graph" />
 </div>
 
 ---
