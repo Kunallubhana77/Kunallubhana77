@@ -67,10 +67,10 @@
 
 ---
 
-### 🎮 Pacman Contribution
+### 🐍 Snake Game
 
 <div align="center">
-  <img src="pacman-contrib/pacman-contribution-graph.svg" alt="Pacman Contribution Graph" />
+  <img src="https://raw.githubusercontent.com/Kunallubhana77/Kunallubhana77/output/github-snake-dark.svg" alt="Snake Game" />
 </div>
 
 ---
