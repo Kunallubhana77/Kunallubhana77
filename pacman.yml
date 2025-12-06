@@ -1,0 +1,38 @@
+name: Generate Pacman
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+    - master
+    - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions: 
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Generate Pacman
+        uses: abozanona/pacman-contribution-graph@v1
+        with:
+          github_user_name: ${{ github.repository_owner }}
+
+      - name: Create Dist Directory
+        run: |
+          mkdir -p dist
+          mv pacman-contribution-graph.svg dist/ || echo "File not found, checking listing"
+          ls -R
+
+      - name: Push to Output Branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
