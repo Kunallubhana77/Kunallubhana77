@@ -21,18 +21,24 @@ jobs:
         uses: abozanona/pacman-contribution-graph@v1
         with:
           github_user_name: ${{ github.repository_owner }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Move to folder
+      - name: Organize Files
         run: |
           mkdir -p pacman-contrib
-          mv pacman-contribution-graph.svg pacman-contrib/
+          if [ -f "pacman-contribution-graph.svg" ]; then
+            mv pacman-contribution-graph.svg pacman-contrib/
+          fi
+          ls -R pacman-contrib/
 
       - name: Commit & Push
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add pacman-contrib/
-          git commit -m "Update Pacman contribution graph" || exit 0
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update Pacman contribution graph"
+            git push origin HEAD:main
+          fi
