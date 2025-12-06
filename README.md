@@ -80,13 +80,19 @@
 ### 🤝 Connect with Me
 
 <div align="center">
-  <a href="https://linkedin.com/in/kunallubhana">
+  <a href="https://www.linkedin.com/in/kunal-lubhana-2b766024a/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://twitter.com/kunallubhana">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+  <a href="https://x.com/TQubit">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
   </a>
-  <a href="mailto:kunallubhana77@gmail.com">
+  <a href="https://www.instagram.com/kunal_lubhana/">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="https://in.pinterest.com/techqubit/">
+    <img src="https://img.shields.io/badge/Pinterest-BD081C?style=for-the-badge&logo=pinterest&logoColor=white" alt="Pinterest" />
+  </a>
+  <a href="mailto:techqubit77@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </div>
