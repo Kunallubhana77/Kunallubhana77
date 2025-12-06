@@ -67,6 +67,14 @@
 
 ---
 
+### 🎮 Pacman Contribution
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Kunallubhana77/Kunallubhana77/output/pacman-contribution-graph.svg" alt="Pacman Contribution Graph" />
+</div>
+
+---
+
 ### 🏆 Trophies
 
 <div align="center">
