@@ -85,6 +85,20 @@
 
 ---
 
+## ☕ Support My Work
+
+If you like my projects and want to support my development work, consider buying me a coffee! Your support helps me create more amazing open-source projects and add new features.
+
+<div align="center">
+  
+  [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20My%20Work-orange?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://buymeacoffee.com/KaranPappuLubhana)
+  
+</div>
+
+Every contribution helps and is greatly appreciated! ❤️
+
+---
+
 ### 🤝 Connect with Me
 
 <div align="center">
